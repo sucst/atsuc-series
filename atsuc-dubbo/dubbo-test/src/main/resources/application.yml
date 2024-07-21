@@ -1,0 +1,16 @@
+server:
+  port: 8090
+
+spring:
+  config:
+    name: dubbo-consumer
+dubbo:
+  application:
+    name: atsuc-app
+    version: 1.0.0
+  protocol:
+    name: dubbo
+    port: 20881
+  registry:
+    address: zookeeper://127.0.0.1:2181
+    #    address: N/A # 直连
