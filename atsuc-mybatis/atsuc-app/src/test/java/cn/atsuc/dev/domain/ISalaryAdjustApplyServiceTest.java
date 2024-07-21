@@ -1,0 +1,48 @@
+package cn.atsuc.dev.domain;
+
+import cn.atsuc.dev.salary.model.aggregate.AdjustSalaryApplyOrderAggregate;
+import cn.atsuc.dev.salary.model.entity.EmployeeEntity;
+import cn.atsuc.dev.salary.model.entity.EmployeeSalaryAdjustEntity;
+import cn.atsuc.dev.salary.model.valobj.EmployeePostVO;
+import cn.atsuc.dev.salary.service.ISalaryAdjustApplyService;
+import com.alibaba.fastjson2.JSON;
+import lombok.extern.slf4j.Slf4j;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.junit4.SpringRunner;
+
+import javax.annotation.Resource;
+import java.math.BigDecimal;
+
+/**
+ * @author atsuc
+ * @date 2024/6/25 0:31
+ * @email s202011105851@163.com
+ * @description
+ */
+@Slf4j
+@RunWith(SpringRunner.class)
+@SpringBootTest
+public class ISalaryAdjustApplyServiceTest {
+    @Resource
+    private ISalaryAdjustApplyService salaryAdjustApplyService;
+
+    @Test
+    public void test_execSalaryAdjust() {
+        AdjustSalaryApplyOrderAggregate adjustSalaryApplyOrderAggregate = AdjustSalaryApplyOrderAggregate.builder()
+                .employeeNumber("10000001")
+                .orderId("100908977676002")
+                .employeeEntity(EmployeeEntity.builder().employeeLevel(EmployeePostVO.T3).employeeTitle(EmployeePostVO.T3).build())
+                .employeeSalaryAdjustEntity(EmployeeSalaryAdjustEntity.builder()
+                        .adjustTotalAmount(new BigDecimal(100))
+                        .adjustBaseAmount(new BigDecimal(80))
+                        .adjustMeritAmount(new BigDecimal(20)).build())
+                .build();
+
+        String orderId = salaryAdjustApplyService.adjustSalary(adjustSalaryApplyOrderAggregate);
+
+        log.info("调薪测试 req: {} res: {}", JSON.toJSONString(adjustSalaryApplyOrderAggregate), orderId);
+    }
+
+}

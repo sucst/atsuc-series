@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: atsuc-mybatis
+  profiles:
+    active: dev
