@@ -1,0 +1,267 @@
+24-06-25.00:00:00.685 [main            ] INFO  IEmployeeServiceTest   - Started IEmployeeServiceTest in 4.339 seconds (JVM running for 5.771)
+24-06-25.00:00:21.533 [main            ] INFO  IEmployeeServiceTest   - Starting IEmployeeServiceTest using Java 17.0.7 on atsuc with PID 7868 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:00:21.536 [main            ] INFO  IEmployeeServiceTest   - The following 1 profile is active: "dev"
+24-06-25.00:00:49.392 [main            ] INFO  IEmployeeServiceTest   - Started IEmployeeServiceTest in 28.7 seconds (JVM running for 30.07)
+24-06-25.00:02:27.671 [main            ] INFO  IEmployeeServiceTest   - Starting IEmployeeServiceTest using Java 17.0.7 on atsuc with PID 13964 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:02:27.673 [main            ] INFO  IEmployeeServiceTest   - The following 1 profile is active: "dev"
+24-06-25.00:02:37.011 [main            ] INFO  IEmployeeServiceTest   - Started IEmployeeServiceTest in 10.183 seconds (JVM running for 11.586)
+24-06-25.00:08:29.879 [main            ] INFO  IEmployeeServiceTest   - Starting IEmployeeServiceTest using Java 17.0.7 on atsuc with PID 22540 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:08:29.880 [main            ] INFO  IEmployeeServiceTest   - The following 1 profile is active: "dev"
+24-06-25.00:08:31.956 [main            ] INFO  IEmployeeServiceTest   - Started IEmployeeServiceTest in 2.541 seconds (JVM running for 3.328)
+24-06-25.00:23:15.539 [main            ] INFO  IEmployeeServiceTest   - Starting IEmployeeServiceTest using Java 17.0.7 on atsuc with PID 23120 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:23:15.540 [main            ] INFO  IEmployeeServiceTest   - The following 1 profile is active: "dev"
+24-06-25.00:23:17.333 [main            ] INFO  IEmployeeServiceTest   - Started IEmployeeServiceTest in 2.243 seconds (JVM running for 2.985)
+24-06-25.00:23:17.744 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:23:18.857 [main            ] ERROR HikariPool             - HikariPool-1 - Exception during pool initialization.
+java.sql.SQLException: The connection property 'useSSL' acceptable values are: 'TRUE', 'FALSE', 'YES' or 'NO'. The value 'truer' is not acceptable.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:85)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:444)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:364)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:206)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:476)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:115)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:159)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:117)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.openConnection(SpringManagedTransaction.java:80)
+	at org.mybatis.spring.transaction.SpringManagedTransaction.getConnection(SpringManagedTransaction.java:67)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.ibatis.plugin.Invocation.proceed(Invocation.java:49)
+	at cn.atsuc.dev.plugin.FieldEncryptionAndDecryptionMybatisPlugin.intercept(FieldEncryptionAndDecryptionMybatisPlugin.java:78)
+	at org.apache.ibatis.plugin.Plugin.invoke(Plugin.java:61)
+	at jdk.proxy2/jdk.proxy2.$Proxy117.query(Unknown Source)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:427)
+	at jdk.proxy2/jdk.proxy2.$Proxy69.selectOne(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.selectOne(SqlSessionTemplate.java:160)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at jdk.proxy2/jdk.proxy2.$Proxy70.queryEmployeeByEmployNumber(Unknown Source)
+	at cn.atsuc.dev.repository.EmployeeRepository.queryEmployeeInfo(EmployeeRepository.java:65)
+	at cn.atsuc.dev.repository.EmployeeRepository$$FastClassBySpringCGLIB$$dee20e80.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at cn.atsuc.dev.repository.EmployeeRepository$$EnhancerBySpringCGLIB$$814854e3.queryEmployeeInfo(<generated>)
+	at cn.atsuc.dev.employee.service.EmployeeService.queryEmployeeInfo(EmployeeService.java:28)
+	at cn.atsuc.dev.domain.IEmployeeServiceTest.test_queryEmployInfo(IEmployeeServiceTest.java:43)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestExecutionCallbacks.evaluate(RunBeforeTestExecutionCallbacks.java:74)
+	at org.springframework.test.context.junit4.statements.RunAfterTestExecutionCallbacks.evaluate(RunAfterTestExecutionCallbacks.java:84)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestMethodCallbacks.evaluate(RunBeforeTestMethodCallbacks.java:75)
+	at org.springframework.test.context.junit4.statements.RunAfterTestMethodCallbacks.evaluate(RunAfterTestMethodCallbacks.java:86)
+	at org.springframework.test.context.junit4.statements.SpringRepeat.evaluate(SpringRepeat.java:84)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:251)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:232)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:55)
+Caused by: com.mysql.cj.exceptions.WrongArgumentException: The connection property 'useSSL' acceptable values are: 'TRUE', 'FALSE', 'YES' or 'NO'. The value 'truer' is not acceptable.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.conf.DefaultPropertySet.initializeProperties(DefaultPropertySet.java:202)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:390)
+	... 89 common frames omitted
+Caused by: com.mysql.cj.exceptions.CJException: The connection property 'useSSL' acceptable values are: 'TRUE', 'FALSE', 'YES' or 'NO'. The value 'truer' is not acceptable.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:124)
+	at com.mysql.cj.conf.BooleanPropertyDefinition.booleanFrom(BooleanPropertyDefinition.java:86)
+	at com.mysql.cj.conf.BooleanPropertyDefinition.parseObject(BooleanPropertyDefinition.java:69)
+	at com.mysql.cj.conf.BooleanPropertyDefinition.parseObject(BooleanPropertyDefinition.java:39)
+	at com.mysql.cj.conf.AbstractRuntimeProperty.setValueInternal(AbstractRuntimeProperty.java:184)
+	at com.mysql.cj.conf.AbstractRuntimeProperty.initializeFrom(AbstractRuntimeProperty.java:81)
+	at com.mysql.cj.conf.DefaultPropertySet.initializeProperties(DefaultPropertySet.java:199)
+	... 90 common frames omitted
+Caused by: java.lang.IllegalArgumentException: No enum constant com.mysql.cj.conf.BooleanPropertyDefinition.AllowableValues.TRUER
+	at java.base/java.lang.Enum.valueOf(Enum.java:273)
+	at com.mysql.cj.conf.BooleanPropertyDefinition$AllowableValues.valueOf(BooleanPropertyDefinition.java:43)
+	at com.mysql.cj.conf.BooleanPropertyDefinition.booleanFrom(BooleanPropertyDefinition.java:84)
+	... 95 common frames omitted
+24-06-25.00:24:00.275 [main            ] INFO  IEmployeeServiceTest   - Starting IEmployeeServiceTest using Java 17.0.7 on atsuc with PID 21884 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:24:00.277 [main            ] INFO  IEmployeeServiceTest   - The following 1 profile is active: "dev"
+24-06-25.00:24:02.371 [main            ] INFO  IEmployeeServiceTest   - Started IEmployeeServiceTest in 2.642 seconds (JVM running for 3.575)
+24-06-25.00:24:02.865 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:24:03.341 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:24:03.607 [main            ] INFO  IEmployeeServiceTest   - 测试结果：{"employeeLevel":"T-3","employeeName":"小傅哥","employeeNumber":"10000001","employeeTitle":"中级工程师","salaryBaseAmount":4080.00,"salaryMeritAmount":1020.00,"salaryTotalAmount":5100.00}
+24-06-25.00:24:03.620 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:24:03.632 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:26:36.417 [main            ] INFO  IEmployeeServiceTest   - Starting IEmployeeServiceTest using Java 17.0.7 on atsuc with PID 15072 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:26:36.418 [main            ] INFO  IEmployeeServiceTest   - The following 1 profile is active: "dev"
+24-06-25.00:26:38.244 [main            ] INFO  IEmployeeServiceTest   - Started IEmployeeServiceTest in 2.297 seconds (JVM running for 3.045)
+24-06-25.00:26:38.664 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:26:39.023 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:26:39.156 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:26:39.173 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:28:05.751 [main            ] INFO  IEmployeeServiceTest   - Starting IEmployeeServiceTest using Java 17.0.7 on atsuc with PID 24100 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:28:05.753 [main            ] INFO  IEmployeeServiceTest   - The following 1 profile is active: "dev"
+24-06-25.00:28:07.517 [main            ] INFO  IEmployeeServiceTest   - Started IEmployeeServiceTest in 2.223 seconds (JVM running for 3.024)
+24-06-25.00:28:07.921 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:28:08.278 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:28:08.410 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:28:08.416 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:28:58.062 [main            ] INFO  IEmployeeServiceTest   - Starting IEmployeeServiceTest using Java 17.0.7 on atsuc with PID 11820 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:28:58.063 [main            ] INFO  IEmployeeServiceTest   - The following 1 profile is active: "dev"
+24-06-25.00:28:59.864 [main            ] INFO  IEmployeeServiceTest   - Started IEmployeeServiceTest in 2.265 seconds (JVM running for 3.03)
+24-06-25.00:29:00.267 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:29:00.645 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:29:00.773 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:29:00.784 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:30:06.497 [main            ] INFO  IEmployeeServiceTest   - Starting IEmployeeServiceTest using Java 17.0.7 on atsuc with PID 14260 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:30:06.498 [main            ] INFO  IEmployeeServiceTest   - The following 1 profile is active: "dev"
+24-06-25.00:30:08.269 [main            ] INFO  IEmployeeServiceTest   - Started IEmployeeServiceTest in 2.257 seconds (JVM running for 3.023)
+24-06-25.00:30:08.697 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:30:09.062 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:30:09.156 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:30:09.160 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:32:41.954 [main            ] INFO  ISalaryAdjustApplyServiceTest - Starting ISalaryAdjustApplyServiceTest using Java 17.0.7 on atsuc with PID 12652 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:32:41.955 [main            ] INFO  ISalaryAdjustApplyServiceTest - The following 1 profile is active: "dev"
+24-06-25.00:32:43.757 [main            ] INFO  ISalaryAdjustApplyServiceTest - Started ISalaryAdjustApplyServiceTest in 2.287 seconds (JVM running for 3.049)
+24-06-25.00:32:44.174 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:32:44.537 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:32:44.688 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:32:44.693 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:33:55.919 [main            ] INFO  ISalaryAdjustApplyServiceTest - Starting ISalaryAdjustApplyServiceTest using Java 17.0.7 on atsuc with PID 5636 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:33:55.920 [main            ] INFO  ISalaryAdjustApplyServiceTest - The following 1 profile is active: "dev"
+24-06-25.00:33:57.693 [main            ] INFO  ISalaryAdjustApplyServiceTest - Started ISalaryAdjustApplyServiceTest in 2.254 seconds (JVM running for 3.028)
+24-06-25.00:33:58.095 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:33:58.459 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:33:58.707 [main            ] INFO  ISalaryAdjustApplyServiceTest - 调薪测试 req: {"employeeEntity":{"employeeLevel":"T3","employeeTitle":"T3"},"employeeNumber":"10000001","employeeSalaryAdjustEntity":{"adjustBaseAmount":80,"adjustMeritAmount":20,"adjustTotalAmount":100},"orderId":"100908977676002"} res: 100908977676002
+24-06-25.00:33:58.719 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:33:58.727 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:36:04.976 [main            ] INFO  IEmployDaoTest         - Starting IEmployDaoTest using Java 17.0.7 on atsuc with PID 24392 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:36:04.977 [main            ] INFO  IEmployDaoTest         - The following 1 profile is active: "dev"
+24-06-25.00:36:06.766 [main            ] INFO  IEmployDaoTest         - Started IEmployDaoTest in 2.236 seconds (JVM running for 2.985)
+24-06-25.00:36:07.223 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:36:07.559 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:36:07.661 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:36:07.664 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:36:31.728 [main            ] INFO  IEmployDaoTest         - Starting IEmployDaoTest using Java 17.0.7 on atsuc with PID 13812 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:36:31.729 [main            ] INFO  IEmployDaoTest         - The following 1 profile is active: "dev"
+24-06-25.00:36:33.516 [main            ] INFO  IEmployDaoTest         - Started IEmployDaoTest in 2.234 seconds (JVM running for 3.011)
+24-06-25.00:36:33.982 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:36:34.324 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:36:34.373 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:36:34.376 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:36:44.468 [main            ] INFO  IEmployDaoTest         - Starting IEmployDaoTest using Java 17.0.7 on atsuc with PID 8904 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:36:44.469 [main            ] INFO  IEmployDaoTest         - The following 1 profile is active: "dev"
+24-06-25.00:36:46.277 [main            ] INFO  IEmployDaoTest         - Started IEmployDaoTest in 2.26 seconds (JVM running for 3.052)
+24-06-25.00:36:46.680 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:36:47.073 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:36:47.287 [main            ] INFO  IEmployDaoTest         - 测试结果：{"employeeLevel":"T2","employeeName":"小傅哥","employeeNumber":"10000002","employeeTitle":"见习工程师"}
+24-06-25.00:36:47.300 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:36:47.314 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:36:57.469 [main            ] INFO  IEmployDaoTest         - Starting IEmployDaoTest using Java 17.0.7 on atsuc with PID 6244 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:36:57.470 [main            ] INFO  IEmployDaoTest         - The following 1 profile is active: "dev"
+24-06-25.00:36:59.275 [main            ] INFO  IEmployDaoTest         - Started IEmployDaoTest in 2.234 seconds (JVM running for 2.973)
+24-06-25.00:36:59.741 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:37:00.067 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:37:00.161 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:37:00.164 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:37:11.259 [main            ] INFO  IEmployDaoTest         - Starting IEmployDaoTest using Java 17.0.7 on atsuc with PID 21732 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:37:11.260 [main            ] INFO  IEmployDaoTest         - The following 1 profile is active: "dev"
+24-06-25.00:37:13.160 [main            ] INFO  IEmployDaoTest         - Started IEmployDaoTest in 2.36 seconds (JVM running for 3.09)
+24-06-25.00:37:13.770 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:37:14.181 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:37:14.277 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:37:14.280 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:38:40.376 [main            ] INFO  IEmployDaoTest         - Starting IEmployDaoTest using Java 17.0.7 on atsuc with PID 7852 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:38:40.377 [main            ] INFO  IEmployDaoTest         - The following 1 profile is active: "dev"
+24-06-25.00:38:42.118 [main            ] INFO  IEmployDaoTest         - Started IEmployDaoTest in 2.194 seconds (JVM running for 2.941)
+24-06-25.00:38:42.610 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:38:42.938 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:38:42.970 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:38:42.974 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:40:34.988 [main            ] INFO  IEmployeeSalaryAdjustDAOTest - Starting IEmployeeSalaryAdjustDAOTest using Java 17.0.7 on atsuc with PID 8304 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:40:34.989 [main            ] INFO  IEmployeeSalaryAdjustDAOTest - The following 1 profile is active: "dev"
+24-06-25.00:40:36.854 [main            ] INFO  IEmployeeSalaryAdjustDAOTest - Started IEmployeeSalaryAdjustDAOTest in 2.303 seconds (JVM running for 3.067)
+24-06-25.00:40:37.232 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:40:37.595 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:40:37.692 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:40:37.695 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:40:58.470 [main            ] INFO  IEmployeeSalaryAdjustDAOTest - Starting IEmployeeSalaryAdjustDAOTest using Java 17.0.7 on atsuc with PID 24264 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:40:58.471 [main            ] INFO  IEmployeeSalaryAdjustDAOTest - The following 1 profile is active: "dev"
+24-06-25.00:41:00.211 [main            ] INFO  IEmployeeSalaryAdjustDAOTest - Started IEmployeeSalaryAdjustDAOTest in 2.235 seconds (JVM running for 2.987)
+24-06-25.00:41:00.609 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:41:00.985 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:41:01.017 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:41:01.021 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:42:40.887 [main            ] INFO  IEmployeeSalaryDAOTest - Starting IEmployeeSalaryDAOTest using Java 17.0.7 on atsuc with PID 12604 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:42:40.888 [main            ] INFO  IEmployeeSalaryDAOTest - The following 1 profile is active: "dev"
+24-06-25.00:42:42.747 [main            ] INFO  IEmployeeSalaryDAOTest - Started IEmployeeSalaryDAOTest in 2.316 seconds (JVM running for 3.071)
+24-06-25.00:42:43.160 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:42:43.525 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:42:43.573 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:42:43.577 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.
+24-06-25.00:42:49.355 [main            ] INFO  IEmployeeSalaryDAOTest - Starting IEmployeeSalaryDAOTest using Java 17.0.7 on atsuc with PID 24236 (started by s2020 in D:\code\gitcode\mybatis\atsuc-app)
+24-06-25.00:42:49.357 [main            ] INFO  IEmployeeSalaryDAOTest - The following 1 profile is active: "dev"
+24-06-25.00:42:51.141 [main            ] INFO  IEmployeeSalaryDAOTest - Started IEmployeeSalaryDAOTest in 2.236 seconds (JVM running for 3.0)
+24-06-25.00:42:51.572 [main            ] INFO  HikariDataSource       - HikariPool-1 - Starting...
+24-06-25.00:42:51.922 [main            ] INFO  HikariDataSource       - HikariPool-1 - Start completed.
+24-06-25.00:42:51.957 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown initiated...
+24-06-25.00:42:51.960 [SpringApplicationShutdownHook] INFO  HikariDataSource       - HikariPool-1 - Shutdown completed.

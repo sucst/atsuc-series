@@ -1,0 +1,4 @@
+cn\atsuc\dev\plugin\FieldEncryptionAndDecryptionMybatisPlugin.class
+cn\atsuc\dev\config\PluginAutoConfiguration.class
+cn\atsuc\dev\config\TransactionManagerAutoConfiguration.class
+cn\atsuc\dev\AtsucAppApplication.class
