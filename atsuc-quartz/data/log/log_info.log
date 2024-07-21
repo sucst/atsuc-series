@@ -1,0 +1,451 @@
+24-07-05.00:00:26.194 [main            ] INFO  Application            - Started Application in 113.732 seconds (JVM running for 114.609)
+24-07-05.00:00:26.217 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:00:26.590 [SpringApplicationShutdownHook] INFO  SchedulerFactoryBean   - Shutting down Quartz Scheduler
+24-07-05.00:00:26.590 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+24-07-05.00:00:26.590 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:00:26.590 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+24-07-05.00:00:26.591 [SpringApplicationShutdownHook] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server destroy success.
+24-07-05.00:00:26.591 [xxl-job, executor JobLogFileCleanThread] INFO  JobLogFileCleanThread  - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+24-07-05.00:00:26.591 [xxl-job, executor TriggerCallbackThread] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+24-07-05.00:00:26.592 [Thread-9        ] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+24-07-05.00:00:31.362 [main            ] INFO  Application            - Starting Application using Java 1.8.0_371 on atsuc with PID 19176 (D:\code\gitcode\atsuc-quartz\quartz-app\target\classes started by s2020 in D:\code\gitcode\atsuc-quartz)
+24-07-05.00:00:31.364 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-05.00:00:32.153 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 9001 (http)
+24-07-05.00:00:32.159 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-9001"]
+24-07-05.00:00:32.160 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-05.00:00:32.160 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.70]
+24-07-05.00:00:32.274 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-05.00:00:32.274 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 720 ms
+24-07-05.00:00:32.321 [main            ] INFO  XxlJobAutoConfig       - >>>>>>>>>>> xxl-job config init.
+24-07-05.00:00:32.610 [main            ] INFO  StdSchedulerFactory    - Using default implementation for ThreadExecutor
+24-07-05.00:00:32.617 [main            ] INFO  SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+24-07-05.00:00:32.618 [main            ] INFO  QuartzScheduler        - Quartz Scheduler v.2.3.2 created.
+24-07-05.00:00:32.618 [main            ] INFO  RAMJobStore            - RAMJobStore initialized.
+24-07-05.00:00:32.619 [main            ] INFO  QuartzScheduler        - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+24-07-05.00:00:32.619 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+24-07-05.00:00:32.619 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler version: 2.3.2
+24-07-05.00:00:32.619 [main            ] INFO  QuartzScheduler        - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@19e21f89
+24-07-05.00:00:32.660 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-9001"]
+24-07-05.00:00:32.674 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 9001 (http) with context path ''
+24-07-05.00:00:32.675 [main            ] INFO  SchedulerFactoryBean   - Starting Quartz Scheduler now
+24-07-05.00:00:32.676 [main            ] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+24-07-05.00:02:54.974 [main            ] INFO  Application            - Started Application in 144.066 seconds (JVM running for 144.974)
+24-07-05.00:02:55.737 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+24-07-05.00:06:33.271 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:06:33.548 [SpringApplicationShutdownHook] INFO  SchedulerFactoryBean   - Shutting down Quartz Scheduler
+24-07-05.00:06:33.548 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+24-07-05.00:06:33.548 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:06:33.549 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+24-07-05.00:06:33.550 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server stop.
+24-07-05.00:06:33.553 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://169.254.41.74:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+24-07-05.00:06:33.554 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+24-07-05.00:06:33.554 [SpringApplicationShutdownHook] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server destroy success.
+24-07-05.00:06:33.554 [xxl-job, executor JobLogFileCleanThread] INFO  JobLogFileCleanThread  - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+24-07-05.00:06:33.554 [xxl-job, executor TriggerCallbackThread] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+24-07-05.00:06:33.554 [Thread-9        ] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+24-07-05.00:06:39.615 [main            ] INFO  Application            - Starting Application using Java 1.8.0_371 on atsuc with PID 12476 (D:\code\gitcode\atsuc-quartz\quartz-app\target\classes started by s2020 in D:\code\gitcode\atsuc-quartz)
+24-07-05.00:06:39.617 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-05.00:06:40.389 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 9001 (http)
+24-07-05.00:06:40.395 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-9001"]
+24-07-05.00:06:40.396 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-05.00:06:40.396 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.70]
+24-07-05.00:06:40.508 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-05.00:06:40.508 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 706 ms
+24-07-05.00:06:40.555 [main            ] INFO  XxlJobAutoConfig       - >>>>>>>>>>> xxl-job config init.
+24-07-05.00:06:40.834 [main            ] INFO  StdSchedulerFactory    - Using default implementation for ThreadExecutor
+24-07-05.00:06:40.841 [main            ] INFO  SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+24-07-05.00:06:40.841 [main            ] INFO  QuartzScheduler        - Quartz Scheduler v.2.3.2 created.
+24-07-05.00:06:40.842 [main            ] INFO  RAMJobStore            - RAMJobStore initialized.
+24-07-05.00:06:40.843 [main            ] INFO  QuartzScheduler        - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+24-07-05.00:06:40.843 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+24-07-05.00:06:40.843 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler version: 2.3.2
+24-07-05.00:06:40.843 [main            ] INFO  QuartzScheduler        - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3bb9ca38
+24-07-05.00:06:40.882 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-9001"]
+24-07-05.00:06:40.896 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 9001 (http) with context path ''
+24-07-05.00:06:40.897 [main            ] INFO  SchedulerFactoryBean   - Starting Quartz Scheduler now
+24-07-05.00:06:40.897 [main            ] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+24-07-05.00:09:36.467 [main            ] INFO  Application            - Started Application in 177.294 seconds (JVM running for 178.167)
+24-07-05.00:09:37.212 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+24-07-05.00:09:37.774 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:09:38.058 [SpringApplicationShutdownHook] INFO  SchedulerFactoryBean   - Shutting down Quartz Scheduler
+24-07-05.00:09:38.058 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+24-07-05.00:09:38.058 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:09:38.058 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+24-07-05.00:09:38.059 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server stop.
+24-07-05.00:09:38.063 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://169.254.41.74:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+24-07-05.00:09:38.063 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+24-07-05.00:09:38.063 [SpringApplicationShutdownHook] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server destroy success.
+24-07-05.00:09:38.064 [xxl-job, executor JobLogFileCleanThread] INFO  JobLogFileCleanThread  - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+24-07-05.00:09:38.064 [xxl-job, executor TriggerCallbackThread] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+24-07-05.00:09:38.064 [Thread-9        ] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+24-07-05.00:09:43.081 [main            ] INFO  Application            - Starting Application using Java 1.8.0_371 on atsuc with PID 22308 (D:\code\gitcode\atsuc-quartz\quartz-app\target\classes started by s2020 in D:\code\gitcode\atsuc-quartz)
+24-07-05.00:09:43.084 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-05.00:09:43.858 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 9001 (http)
+24-07-05.00:09:43.865 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-9001"]
+24-07-05.00:09:43.865 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-05.00:09:43.865 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.70]
+24-07-05.00:09:43.983 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-05.00:09:43.983 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 715 ms
+24-07-05.00:09:44.033 [main            ] INFO  XxlJobAutoConfig       - >>>>>>>>>>> xxl-job config init.
+24-07-05.00:09:44.315 [main            ] INFO  StdSchedulerFactory    - Using default implementation for ThreadExecutor
+24-07-05.00:09:44.321 [main            ] INFO  SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+24-07-05.00:09:44.322 [main            ] INFO  QuartzScheduler        - Quartz Scheduler v.2.3.2 created.
+24-07-05.00:09:44.322 [main            ] INFO  RAMJobStore            - RAMJobStore initialized.
+24-07-05.00:09:44.323 [main            ] INFO  QuartzScheduler        - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+24-07-05.00:09:44.323 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+24-07-05.00:09:44.323 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler version: 2.3.2
+24-07-05.00:09:44.323 [main            ] INFO  QuartzScheduler        - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@1b3ab4f9
+24-07-05.00:09:44.364 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-9001"]
+24-07-05.00:09:44.378 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 9001 (http) with context path ''
+24-07-05.00:09:44.379 [main            ] INFO  SchedulerFactoryBean   - Starting Quartz Scheduler now
+24-07-05.00:09:44.380 [main            ] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+24-07-05.00:13:09.704 [main            ] INFO  Application            - Started Application in 207.075 seconds (JVM running for 207.985)
+24-07-05.00:13:10.448 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+24-07-05.00:13:11.698 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:13:11.968 [SpringApplicationShutdownHook] INFO  SchedulerFactoryBean   - Shutting down Quartz Scheduler
+24-07-05.00:13:11.968 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+24-07-05.00:13:11.968 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:13:11.968 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+24-07-05.00:13:11.969 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server stop.
+24-07-05.00:13:11.974 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://169.254.41.74:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+24-07-05.00:13:11.974 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+24-07-05.00:13:11.974 [SpringApplicationShutdownHook] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server destroy success.
+24-07-05.00:13:11.975 [xxl-job, executor JobLogFileCleanThread] INFO  JobLogFileCleanThread  - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+24-07-05.00:13:11.975 [xxl-job, executor TriggerCallbackThread] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+24-07-05.00:13:11.975 [Thread-9        ] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+24-07-05.00:13:14.459 [main            ] INFO  Application            - Starting Application using Java 1.8.0_371 on atsuc with PID 23464 (D:\code\gitcode\atsuc-quartz\quartz-app\target\classes started by s2020 in D:\code\gitcode\atsuc-quartz)
+24-07-05.00:13:14.462 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-05.00:13:15.234 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 9001 (http)
+24-07-05.00:13:15.241 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-9001"]
+24-07-05.00:13:15.241 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-05.00:13:15.242 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.70]
+24-07-05.00:13:15.360 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-05.00:13:15.360 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 713 ms
+24-07-05.00:13:15.408 [main            ] INFO  XxlJobAutoConfig       - >>>>>>>>>>> xxl-job config init.
+24-07-05.00:13:15.686 [main            ] INFO  StdSchedulerFactory    - Using default implementation for ThreadExecutor
+24-07-05.00:13:15.694 [main            ] INFO  SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+24-07-05.00:13:15.694 [main            ] INFO  QuartzScheduler        - Quartz Scheduler v.2.3.2 created.
+24-07-05.00:13:15.695 [main            ] INFO  RAMJobStore            - RAMJobStore initialized.
+24-07-05.00:13:15.695 [main            ] INFO  QuartzScheduler        - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+24-07-05.00:13:15.695 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+24-07-05.00:13:15.695 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler version: 2.3.2
+24-07-05.00:13:15.696 [main            ] INFO  QuartzScheduler        - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@235c997d
+24-07-05.00:13:15.739 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-9001"]
+24-07-05.00:13:15.753 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 9001 (http) with context path ''
+24-07-05.00:13:15.754 [main            ] INFO  SchedulerFactoryBean   - Starting Quartz Scheduler now
+24-07-05.00:13:15.754 [main            ] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+24-07-05.00:13:32.478 [main            ] INFO  Application            - Started Application in 18.35 seconds (JVM running for 19.353)
+24-07-05.00:13:34.570 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+24-07-05.00:17:51.681 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:17:51.969 [SpringApplicationShutdownHook] INFO  SchedulerFactoryBean   - Shutting down Quartz Scheduler
+24-07-05.00:17:51.969 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+24-07-05.00:17:51.969 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:17:51.969 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+24-07-05.00:17:51.971 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server stop.
+24-07-05.00:17:51.975 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://169.254.41.74:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+24-07-05.00:17:51.975 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+24-07-05.00:17:51.975 [SpringApplicationShutdownHook] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server destroy success.
+24-07-05.00:17:51.976 [xxl-job, executor JobLogFileCleanThread] INFO  JobLogFileCleanThread  - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+24-07-05.00:17:51.976 [xxl-job, executor TriggerCallbackThread] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+24-07-05.00:17:51.976 [Thread-9        ] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+24-07-05.00:18:55.374 [main            ] INFO  Application            - Starting Application using Java 1.8.0_371 on atsuc with PID 3092 (D:\code\gitcode\atsuc-quartz\quartz-app\target\classes started by s2020 in D:\code\gitcode\atsuc-quartz)
+24-07-05.00:18:55.377 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-05.00:18:56.680 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 9001 (http)
+24-07-05.00:18:56.689 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-9001"]
+24-07-05.00:18:56.689 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-05.00:18:56.690 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.70]
+24-07-05.00:18:56.845 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-05.00:18:56.845 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1197 ms
+24-07-05.00:18:56.920 [main            ] INFO  XxlJobAutoConfig       - >>>>>>>>>>> xxl-job config init.
+24-07-05.00:18:57.363 [main            ] INFO  StdSchedulerFactory    - Using default implementation for ThreadExecutor
+24-07-05.00:18:57.373 [main            ] INFO  SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+24-07-05.00:18:57.373 [main            ] INFO  QuartzScheduler        - Quartz Scheduler v.2.3.2 created.
+24-07-05.00:18:57.374 [main            ] INFO  RAMJobStore            - RAMJobStore initialized.
+24-07-05.00:18:57.375 [main            ] INFO  QuartzScheduler        - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+24-07-05.00:18:57.375 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+24-07-05.00:18:57.375 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler version: 2.3.2
+24-07-05.00:18:57.375 [main            ] INFO  QuartzScheduler        - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@6ad179b4
+24-07-05.00:18:57.437 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-9001"]
+24-07-05.00:18:57.458 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 9001 (http) with context path ''
+24-07-05.00:18:57.460 [main            ] INFO  SchedulerFactoryBean   - Starting Quartz Scheduler now
+24-07-05.00:18:57.460 [main            ] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+24-07-05.00:18:57.475 [main            ] INFO  Application            - Started Application in 2.809 seconds (JVM running for 5.442)
+24-07-05.00:18:58.412 [Thread-9        ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+24-07-05.00:21:37.256 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:21:37.550 [SpringApplicationShutdownHook] INFO  SchedulerFactoryBean   - Shutting down Quartz Scheduler
+24-07-05.00:21:37.551 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+24-07-05.00:21:37.551 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:21:37.551 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+24-07-05.00:21:37.552 [Thread-9        ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server stop.
+24-07-05.00:21:37.555 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://169.254.41.74:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+24-07-05.00:21:37.555 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+24-07-05.00:21:37.556 [SpringApplicationShutdownHook] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server destroy success.
+24-07-05.00:21:37.556 [xxl-job, executor JobLogFileCleanThread] INFO  JobLogFileCleanThread  - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+24-07-05.00:21:37.556 [xxl-job, executor TriggerCallbackThread] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+24-07-05.00:21:37.556 [Thread-8        ] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+24-07-05.00:24:19.938 [main            ] INFO  Application            - Starting Application using Java 1.8.0_371 on atsuc with PID 8672 (D:\code\gitcode\atsuc-quartz\quartz-app\target\classes started by s2020 in D:\code\gitcode\atsuc-quartz)
+24-07-05.00:24:19.941 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-05.00:24:20.728 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 9001 (http)
+24-07-05.00:24:20.735 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-9001"]
+24-07-05.00:24:20.736 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-05.00:24:20.736 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.70]
+24-07-05.00:24:20.862 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-05.00:24:20.862 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 723 ms
+24-07-05.00:24:20.915 [main            ] INFO  XxlJobAutoConfig       - >>>>>>>>>>> xxl-job config init.
+24-07-05.00:24:21.244 [main            ] INFO  StdSchedulerFactory    - Using default implementation for ThreadExecutor
+24-07-05.00:24:21.251 [main            ] INFO  SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+24-07-05.00:24:21.252 [main            ] INFO  QuartzScheduler        - Quartz Scheduler v.2.3.2 created.
+24-07-05.00:24:21.252 [main            ] INFO  RAMJobStore            - RAMJobStore initialized.
+24-07-05.00:24:21.253 [main            ] INFO  QuartzScheduler        - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+24-07-05.00:24:21.253 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+24-07-05.00:24:21.253 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler version: 2.3.2
+24-07-05.00:24:21.253 [main            ] INFO  QuartzScheduler        - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@316cda31
+24-07-05.00:24:21.298 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-9001"]
+24-07-05.00:24:21.313 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 9001 (http) with context path ''
+24-07-05.00:24:21.314 [main            ] INFO  SchedulerFactoryBean   - Starting Quartz Scheduler now
+24-07-05.00:24:21.315 [main            ] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+24-07-05.00:24:21.327 [main            ] INFO  Application            - Started Application in 1.854 seconds (JVM running for 2.83)
+24-07-05.00:24:22.201 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+24-07-05.00:25:51.315 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:25:51.606 [SpringApplicationShutdownHook] INFO  SchedulerFactoryBean   - Shutting down Quartz Scheduler
+24-07-05.00:25:51.606 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+24-07-05.00:25:51.606 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:25:51.607 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+24-07-05.00:25:51.607 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server stop.
+24-07-05.00:25:51.613 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://169.254.41.74:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+24-07-05.00:25:51.613 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+24-07-05.00:25:51.613 [SpringApplicationShutdownHook] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server destroy success.
+24-07-05.00:25:51.614 [xxl-job, executor JobLogFileCleanThread] INFO  JobLogFileCleanThread  - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+24-07-05.00:25:51.614 [xxl-job, executor TriggerCallbackThread] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+24-07-05.00:25:51.614 [Thread-9        ] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+24-07-05.00:26:06.958 [main            ] INFO  Application            - Starting Application using Java 1.8.0_371 on atsuc with PID 9376 (D:\code\gitcode\atsuc-quartz\quartz-app\target\classes started by s2020 in D:\code\gitcode\atsuc-quartz)
+24-07-05.00:26:06.960 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-05.00:26:07.706 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 9001 (http)
+24-07-05.00:26:07.712 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-9001"]
+24-07-05.00:26:07.712 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-05.00:26:07.713 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.70]
+24-07-05.00:26:07.835 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-05.00:26:07.836 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 699 ms
+24-07-05.00:26:07.875 [main            ] WARN  AnnotationConfigServletWebServerApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xxlJobAutoConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'xxl.job.admin.address' in value "${xxl.job.admin.address}"
+24-07-05.00:26:07.878 [main            ] INFO  StandardService        - Stopping service [Tomcat]
+24-07-05.00:26:07.889 [main            ] INFO  ConditionEvaluationReportLoggingListener - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+24-07-05.00:26:07.907 [main            ] ERROR SpringApplication      - Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'xxlJobAutoConfig': Injection of autowired dependencies failed; nested exception is java.lang.IllegalArgumentException: Could not resolve placeholder 'xxl.job.admin.address' in value "${xxl.job.admin.address}"
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:405)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1431)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:619)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:955)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:731)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1292)
+	at cn.atsuc.quartz.app.Application.main(Application.java:19)
+Caused by: java.lang.IllegalArgumentException: Could not resolve placeholder 'xxl.job.admin.address' in value "${xxl.job.admin.address}"
+	at org.springframework.util.PropertyPlaceholderHelper.parseStringValue(PropertyPlaceholderHelper.java:180)
+	at org.springframework.util.PropertyPlaceholderHelper.replacePlaceholders(PropertyPlaceholderHelper.java:126)
+	at org.springframework.core.env.AbstractPropertyResolver.doResolvePlaceholders(AbstractPropertyResolver.java:239)
+	at org.springframework.core.env.AbstractPropertyResolver.resolveRequiredPlaceholders(AbstractPropertyResolver.java:210)
+	at org.springframework.context.support.PropertySourcesPlaceholderConfigurer.lambda$processProperties$0(PropertySourcesPlaceholderConfigurer.java:191)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveEmbeddedValue(AbstractBeanFactory.java:936)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1332)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1311)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	... 17 common frames omitted
+24-07-05.00:28:34.651 [main            ] INFO  Application            - Starting Application using Java 1.8.0_371 on atsuc with PID 22116 (D:\code\gitcode\atsuc-quartz\quartz-app\target\classes started by s2020 in D:\code\gitcode\atsuc-quartz)
+24-07-05.00:28:34.653 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-05.00:28:35.414 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 9001 (http)
+24-07-05.00:28:35.420 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-9001"]
+24-07-05.00:28:35.421 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-05.00:28:35.421 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.70]
+24-07-05.00:28:35.535 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-05.00:28:35.535 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 701 ms
+24-07-05.00:28:35.582 [main            ] INFO  XxlJobAutoConfig       - >>>>>>>>>>> xxl-job config init.
+24-07-05.00:28:35.867 [main            ] INFO  StdSchedulerFactory    - Using default implementation for ThreadExecutor
+24-07-05.00:28:35.874 [main            ] INFO  SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+24-07-05.00:28:35.874 [main            ] INFO  QuartzScheduler        - Quartz Scheduler v.2.3.2 created.
+24-07-05.00:28:35.875 [main            ] INFO  RAMJobStore            - RAMJobStore initialized.
+24-07-05.00:28:35.876 [main            ] INFO  QuartzScheduler        - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+24-07-05.00:28:35.876 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+24-07-05.00:28:35.876 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler version: 2.3.2
+24-07-05.00:28:35.876 [main            ] INFO  QuartzScheduler        - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@3bb9ca38
+24-07-05.00:28:35.916 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-9001"]
+24-07-05.00:28:35.931 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 9001 (http) with context path ''
+24-07-05.00:28:35.933 [main            ] INFO  SchedulerFactoryBean   - Starting Quartz Scheduler now
+24-07-05.00:28:35.933 [main            ] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+24-07-05.00:28:35.944 [main            ] INFO  Application            - Started Application in 1.723 seconds (JVM running for 2.643)
+24-07-05.00:28:36.601 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server start success, nettype = class com.xxl.job.core.server.EmbedServer, port = 9999
+24-07-05.00:36:15.503 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:36:15.866 [SpringApplicationShutdownHook] INFO  SchedulerFactoryBean   - Shutting down Quartz Scheduler
+24-07-05.00:36:15.866 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+24-07-05.00:36:15.866 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:36:15.866 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+24-07-05.00:36:15.867 [Thread-10       ] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server stop.
+24-07-05.00:36:15.872 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job registry-remove success, registryParam:RegistryParam{registryGroup='EXECUTOR', registryKey='xxl-job-executor-sample', registryValue='http://169.254.41.74:9999/'}, registryResult:ReturnT [code=200, msg=null, content=null]
+24-07-05.00:36:15.872 [xxl-job, executor ExecutorRegistryThread] INFO  ExecutorRegistryThread - >>>>>>>>>>> xxl-job, executor registry thread destroy.
+24-07-05.00:36:15.873 [SpringApplicationShutdownHook] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server destroy success.
+24-07-05.00:36:15.873 [xxl-job, executor JobLogFileCleanThread] INFO  JobLogFileCleanThread  - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+24-07-05.00:36:15.873 [xxl-job, executor TriggerCallbackThread] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+24-07-05.00:36:15.873 [Thread-9        ] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+24-07-05.00:40:55.982 [main            ] INFO  Application            - Starting Application using Java 1.8.0_371 on atsuc with PID 2184 (D:\code\gitcode\atsuc-quartz\quartz-app\target\classes started by s2020 in D:\code\gitcode\atsuc-quartz)
+24-07-05.00:40:55.984 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-05.00:40:56.759 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 9001 (http)
+24-07-05.00:40:56.766 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-9001"]
+24-07-05.00:40:56.766 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-05.00:40:56.767 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.70]
+24-07-05.00:40:56.879 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-05.00:40:56.879 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 715 ms
+24-07-05.00:40:56.928 [main            ] INFO  XxlJobAutoConfig       - >>>>>>>>>>> xxl-job config init.
+24-07-05.00:42:09.967 [main            ] INFO  StdSchedulerFactory    - Using default implementation for ThreadExecutor
+24-07-05.00:42:09.976 [main            ] INFO  SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+24-07-05.00:42:09.976 [main            ] INFO  QuartzScheduler        - Quartz Scheduler v.2.3.2 created.
+24-07-05.00:42:09.976 [main            ] INFO  RAMJobStore            - RAMJobStore initialized.
+24-07-05.00:42:09.977 [main            ] INFO  QuartzScheduler        - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+24-07-05.00:42:09.977 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+24-07-05.00:42:09.977 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler version: 2.3.2
+24-07-05.00:42:09.977 [main            ] INFO  QuartzScheduler        - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@51d0ec6f
+24-07-05.00:42:10.024 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-9001"]
+24-07-05.00:42:10.040 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 9001 (http) with context path ''
+24-07-05.00:42:10.042 [main            ] INFO  SchedulerFactoryBean   - Starting Quartz Scheduler now
+24-07-05.00:42:10.042 [main            ] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+24-07-05.00:43:54.929 [main            ] INFO  Application            - Started Application in 179.41 seconds (JVM running for 180.325)
+24-07-05.00:43:55.660 [Thread-10       ] ERROR EmbedServer            - >>>>>>>>>>> xxl-job remoting server error.
+java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Net.java:438)
+	at sun.nio.ch.Net.bind(Net.java:430)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:225)
+	at io.netty.channel.socket.nio.NioServerSocketChannel.doBind(NioServerSocketChannel.java:141)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe.bind(AbstractChannel.java:562)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.bind(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeBind(AbstractChannelHandlerContext.java:600)
+	at io.netty.channel.AbstractChannelHandlerContext.bind(AbstractChannelHandlerContext.java:579)
+	at io.netty.channel.DefaultChannelPipeline.bind(DefaultChannelPipeline.java:973)
+	at io.netty.channel.AbstractChannel.bind(AbstractChannel.java:260)
+	at io.netty.bootstrap.AbstractBootstrap$2.run(AbstractBootstrap.java:356)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask$$$capture(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute$$$capture(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:750)
+24-07-05.00:44:09.598 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:44:09.877 [SpringApplicationShutdownHook] INFO  SchedulerFactoryBean   - Shutting down Quartz Scheduler
+24-07-05.00:44:09.877 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+24-07-05.00:44:09.877 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:44:09.877 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+24-07-05.00:44:09.878 [SpringApplicationShutdownHook] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server destroy success.
+24-07-05.00:44:09.878 [xxl-job, executor JobLogFileCleanThread] INFO  JobLogFileCleanThread  - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+24-07-05.00:44:09.879 [xxl-job, executor TriggerCallbackThread] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+24-07-05.00:44:09.879 [Thread-9        ] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.
+24-07-05.00:44:18.786 [main            ] INFO  Application            - Starting Application using Java 1.8.0_371 on atsuc with PID 20204 (D:\code\gitcode\atsuc-quartz\quartz-app\target\classes started by s2020 in D:\code\gitcode\atsuc-quartz)
+24-07-05.00:44:18.788 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+24-07-05.00:44:19.556 [main            ] INFO  TomcatWebServer        - Tomcat initialized with port(s): 9001 (http)
+24-07-05.00:44:19.563 [main            ] INFO  Http11NioProtocol      - Initializing ProtocolHandler ["http-nio-9001"]
+24-07-05.00:44:19.563 [main            ] INFO  StandardService        - Starting service [Tomcat]
+24-07-05.00:44:19.563 [main            ] INFO  StandardEngine         - Starting Servlet engine: [Apache Tomcat/9.0.70]
+24-07-05.00:44:19.681 [main            ] INFO  [/]                    - Initializing Spring embedded WebApplicationContext
+24-07-05.00:44:19.681 [main            ] INFO  ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 708 ms
+24-07-05.00:44:19.730 [main            ] INFO  XxlJobAutoConfig       - >>>>>>>>>>> xxl-job config init.
+24-07-05.00:44:24.178 [main            ] INFO  StdSchedulerFactory    - Using default implementation for ThreadExecutor
+24-07-05.00:44:24.187 [main            ] INFO  SchedulerSignalerImpl  - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+24-07-05.00:44:24.187 [main            ] INFO  QuartzScheduler        - Quartz Scheduler v.2.3.2 created.
+24-07-05.00:44:24.188 [main            ] INFO  RAMJobStore            - RAMJobStore initialized.
+24-07-05.00:44:24.188 [main            ] INFO  QuartzScheduler        - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'quartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 10 threads.
+  Using job-store 'org.quartz.simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+24-07-05.00:44:24.188 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler 'quartzScheduler' initialized from an externally provided properties instance.
+24-07-05.00:44:24.188 [main            ] INFO  StdSchedulerFactory    - Quartz scheduler version: 2.3.2
+24-07-05.00:44:24.189 [main            ] INFO  QuartzScheduler        - JobFactory set to: org.springframework.scheduling.quartz.SpringBeanJobFactory@17d2b075
+24-07-05.00:44:24.239 [main            ] INFO  Http11NioProtocol      - Starting ProtocolHandler ["http-nio-9001"]
+24-07-05.00:44:24.255 [main            ] INFO  TomcatWebServer        - Tomcat started on port(s): 9001 (http) with context path ''
+24-07-05.00:44:24.256 [main            ] INFO  SchedulerFactoryBean   - Starting Quartz Scheduler now
+24-07-05.00:44:24.256 [main            ] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED started.
+24-07-05.00:45:29.557 [main            ] INFO  Application            - Started Application in 71.201 seconds (JVM running for 72.478)
+24-07-05.00:45:29.574 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:45:29.914 [SpringApplicationShutdownHook] INFO  SchedulerFactoryBean   - Shutting down Quartz Scheduler
+24-07-05.00:45:29.914 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutting down.
+24-07-05.00:45:29.914 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED paused.
+24-07-05.00:45:29.915 [SpringApplicationShutdownHook] INFO  QuartzScheduler        - Scheduler quartzScheduler_$_NON_CLUSTERED shutdown complete.
+24-07-05.00:45:29.920 [SpringApplicationShutdownHook] INFO  EmbedServer            - >>>>>>>>>>> xxl-job remoting server destroy success.
+24-07-05.00:45:29.920 [xxl-job, executor JobLogFileCleanThread] INFO  JobLogFileCleanThread  - >>>>>>>>>>> xxl-job, executor JobLogFileCleanThread thread destroy.
+24-07-05.00:45:29.921 [xxl-job, executor TriggerCallbackThread] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor callback thread destroy.
+24-07-05.00:45:29.921 [Thread-8        ] INFO  TriggerCallbackThread  - >>>>>>>>>>> xxl-job, executor retry callback thread destroy.

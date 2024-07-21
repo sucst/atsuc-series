@@ -1,0 +1,6 @@
+spring:
+  config:
+    name: atsuc-quartz
+  profiles:
+    active: dev
+
